@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tiltsemver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tilt digests and semver fingerprints for local integrity checks.",
+  "bin": {
+    "tiltsemver": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tiltsemver.git"
+  },
+  "homepage": "https://theworker02.github.io/tiltsemver/",
+  "keywords": [
+    "tilt",
+    "semver",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
